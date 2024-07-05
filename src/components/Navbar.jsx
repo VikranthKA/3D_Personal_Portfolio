@@ -19,9 +19,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-16 h-16 object-cover rounded-full" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Vikranth <span className="sm:block hidden">| JavaScript Developer</span>
+          <img src={logo} alt="logo" className="w-16 h-16 object-cover rounded-full " style={{}} />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Vikranth &nbsp;<span className="sm:block hidden"> | JavaScript Developer</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -54,8 +54,11 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-slate-400"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
+              }font-poppins font-medium cursor-pointer text-[16px]`}
+              onClick={() => {
+                setActive(link.title);
+                setToggle(!toggle);
+              }}
             >
               <a href={`${link.id}`}>{link.title}</a>
             </li>
