@@ -1,4 +1,4 @@
-import {motion} from 'framer-motion'
+// import {motion} from 'framer-motion'
 import { styles } from '../style'
 import {ComputerCanvas} from './canvas'
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='w-1 sm:h-80 h-40 violet-gradient'/>
 
       </div>
-    <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Viranth </span></h1>
+    <h1 className={`${styles.heroHeadText} text-white`}>Hi,  <span className='text-[#915eff]'>Viranth </span></h1>
     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
       I develop full stack Responsive <br className='sm:block hidden '/>web Application.
     </p>
