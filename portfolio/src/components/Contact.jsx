@@ -1,4 +1,9 @@
-// src/components/Contact.jsx
+import { useState,useRef } from "react";
+import {motion} from "framer-motion"
+import emailjs from '@emailjs/browser'
+import { styles } from "../style";
+import {EarthCanvas} from "./canvas"
+import { slideIn } from "../utils/motion";
 const Contact = () => {
   return (
     <div className="bg-white p-8 rounded-md shadow-lg">
