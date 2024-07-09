@@ -8,6 +8,7 @@ import Tech from "./components/Tech"
 import Works from "./components/Works"
 import Contact from "./components/Contact"
 import "./index.css";
+import EarthCanvas from './components/canvas/Earth';
 
 const App = () => {
   return (
@@ -23,7 +24,9 @@ const App = () => {
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
-          <Contact />
+          {/* <Contact />
+           */}
+           <EarthCanvas/>
         </div>
 
 
