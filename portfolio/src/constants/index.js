@@ -36,6 +36,8 @@ import RESTAPI from "../assets/RestAPI.jpeg"
 import VScode from "../assets/VScode.jpeg"
 
 import dct from "../assets/dct.png"
+import eventspot from "../assets/eventspot.jpg"
+import blogapp from "../assets/blogapp.jpg"
 
 
 
@@ -243,7 +245,7 @@ const projects = [
       },
       
     ],
-    image: carrent,
+    image: eventspot,
     source_code_link: "https://github.com/VikranthKA/Event-Spot_frontend",
   },
   {
@@ -263,30 +265,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: blogapp,
     source_code_link: "https://github.com/VikranthKA/Blog_App-frontend",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
