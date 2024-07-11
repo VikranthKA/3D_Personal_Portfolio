@@ -1,5 +1,5 @@
 
-import Logo from '../assets/Logo';
+import Logo from '../assets/Logo.jsx';
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -44,7 +44,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={Logo} alt='logo' className='w-9 h-9 object-contain' />
+          <Logo />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Vikranth &nbsp;
             <span className='sm:block hidden'> | JavaScript developer</span>
