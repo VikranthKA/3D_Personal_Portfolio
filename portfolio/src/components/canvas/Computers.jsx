@@ -1,10 +1,11 @@
 import React, { Suspense, useEffect, useState, useRef } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useThree } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  // Ensure the path is correct
 
   return (
     <mesh>
@@ -19,7 +20,7 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-        object={computer.scene}
+        object={computer}
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
@@ -54,13 +55,15 @@ const ComputersCanvas = () => {
   }, []);
 
   useEffect(() => {
-    // Cleanup function to dispose of the WebGL renderer
     return () => {
       if (canvasRef.current) {
-        const renderer = canvasRef.current.renderer;
-        if (renderer) {
-          renderer.dispose();
-          renderer.forceContextLoss();
+        const gl = canvasRef.current.gl;
+        if (gl) {
+          const context = gl.getContext();
+          if (context) {
+            context.dispose();
+            context.forceContextLoss();
+          }
         }
       }
     };
