@@ -245,6 +245,7 @@ const projects = [
       },
       
     ],
+    live:"https://event-spot-frontend.vercel.app/",
     image: eventspot,
     source_code_link: "https://github.com/VikranthKA/Event-Spot_frontend",
   },
@@ -265,6 +266,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    live:"",
     image: blogapp,
     source_code_link: "https://github.com/VikranthKA/Blog_App-frontend",
   },
