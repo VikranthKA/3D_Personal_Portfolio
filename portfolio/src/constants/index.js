@@ -38,6 +38,8 @@ import VScode from "../assets/VScode.jpeg"
 import dct from "../assets/dct.png"
 import eventspot from "../assets/eventspot.jpg"
 import blogapp from "../assets/blogapp.jpg"
+import devnbrand from "../assets/devnbrand.jpeg"
+
 
 
 
@@ -158,19 +160,18 @@ const experiences = [
      " Implemented RESTful APIs and used Git for version control"
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Part time Frontend developer",
+    company_name: "devNbrand",
+    icon: devnbrand,
+    iconBg: "#E6DEDD",
+    date: "Nov 2024",
+    points: [
+      "Developing and maintaining web applications using React.js,Next.js and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
