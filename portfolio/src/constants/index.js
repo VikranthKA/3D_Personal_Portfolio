@@ -39,6 +39,7 @@ import dct from "../assets/dct.png"
 import eventspot from "../assets/eventspot.jpg"
 import blogapp from "../assets/blogapp.jpg"
 import devnbrand from "../assets/devnbrand.jpeg"
+import todo_next_type from "../assets/todo_next_type.png"
 
 
 
@@ -154,10 +155,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2023 - Feb 2024",
     points: [
-      "Developed multiple full-stack projects showcasing practical skills in JavaScript (ES6) and creating responsive UIs with React.js" ,
+      "Developed multiple full-stack projects showcasing practical skills in JavaScript (ES6) and creating responsive UIs with React.js",
       "Built scalable server-side applications using Node.js and Express.js",
       "Managed NoSQL databases with MongoDB, including data modeling and querying",
-     " Implemented RESTful APIs and used Git for version control"
+      " Implemented RESTful APIs and used Git for version control"
     ],
   },
   {
@@ -231,28 +232,53 @@ const projects = [
   {
     name: "Event Spot",
     description:
-"    Event Spot is an innovative online platform designed to facilitate locationbased event discovery for users",    tags: [
-      {
-        name: "mern",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react-leaflet",
-        color: "pink-text-gradient",
-      },
-      
-    ],
-    live:"https://event-spot-frontend.vercel.app/",
+      "    Event Spot is an innovative online platform designed to facilitate locationbased event discovery for users", tags: [
+        {
+          name: "mern",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react-bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react-leaflet",
+          color: "pink-text-gradient",
+        },
+
+      ],
+    live: "https://event-spot-frontend.vercel.app/",
     image: eventspot,
     source_code_link: "https://github.com/VikranthKA/Event-Spot_frontend",
   },
   {
+    name: "Todo App",
+    description: "Next.js 15 + TypeScript application designed for managing a To-Do list with full CRUD (Create, Read, Update, Delete) functionality. The project follows best practices by integrating Prisma (with MongoDB) for database management, TailwindCSS for styling",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    live: "https://next-todo-ts-virid.vercel.app/",
+    image: todo_next_type,
+    source_code_link: "https://github.com/VikranthKA/Next_todo_ts",
+  },
+  {
     name: "Blog App",
-    description:"A blog app is a web application designed to facilitate the creation, management, and viewing of blog posts",
+    description: "A blog app is a web application designed to facilitate the creation, management, and viewing of blog posts",
     tags: [
       {
         name: "mern",
@@ -267,11 +293,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    live:"",
+    live: "",
     image: blogapp,
     source_code_link: "https://github.com/VikranthKA/Blog_App-frontend",
   },
-  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
