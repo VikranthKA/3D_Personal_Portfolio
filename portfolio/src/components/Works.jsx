@@ -52,7 +52,7 @@ const ProjectCard = ({
     <div className='mt-5 flex justify-between items-center'>
       <div>
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-        <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        <p className='mt-2 text-secondary text-[14px]'>{description.slice(0,120)}</p>
       </div>
       {live && (
         <a
