@@ -40,6 +40,7 @@ import eventspot from "../assets/eventspot.jpg"
 import blogapp from "../assets/blogapp.jpg"
 import devnbrand from "../assets/devnbrand.jpeg"
 import todo_next_type from "../assets/todo_next_type.png"
+import ai_mock_interview from '../assets/ai_mock_interview.png'
 
 
 
@@ -229,6 +230,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AI-Mock-Interview",
+    description: "AI mock-interview web application so the user can give interview and get feedback",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "neon",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gemini-ai",
+        color: "blue-text-gradient",
+      },
+    ],
+    live: "https://ai-mock-interview-ecru.vercel.app/dashboard",
+    image: ai_mock_interview,
+    source_code_link: "https://github.com/VikranthKA/AI-mock-interview",
+  },
   {
     name: "Event Spot",
     description:
