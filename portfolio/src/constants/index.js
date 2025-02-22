@@ -251,7 +251,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    live: "https://ai-mock-interview-ecru.vercel.app/dashboard",
+    live: "https://ai-mock-interview-ecru.vercel.app",
     image: ai_mock_interview,
     source_code_link: "https://github.com/VikranthKA/AI-mock-interview",
   },
