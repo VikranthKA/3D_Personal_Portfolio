@@ -36,11 +36,11 @@ const Contact = () => {
         <div className="contact-details w-50 h-40 flex flex-column flex-wrap justify-between">
           <button onClick={handleEmailClick} className="contact-button flex items-center p-5 my-2  bg-gray-800 text-white rounded-md  " style={{height:"20%"}}>
             <FaEnvelope className="mr-2" />
-            {showEmail ? " vikranthka@gmail.com" : "  Email"}
+            {showEmail ? " vikranth11ka@gmail.com" : "  Email"}
           </button><br/>
           <button onClick={handlePhoneClick} className="contact-button flex items-center p-5 my-2  bg-gray-800 text-white rounded-md" style={{height:"20%"}}>
             <FaPhone className="mr-2" />
-            {showPhone ? " +91 7899193268" : "  Phone"}
+            {showPhone ? " +91 8310734610" : "  Phone"}
           </button><br/>
           <button onClick={handleWhatsAppClick} className="contact-button flex items-center p-5 my-2 bg-gray-800 text-white rounded-md" style={{height:"20%"}}>
             <FaWhatsapp className="mr-2" />

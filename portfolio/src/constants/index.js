@@ -41,6 +41,9 @@ import blogapp from "../assets/blogapp.jpg"
 import devnbrand from "../assets/devnbrand.jpeg"
 import todo_next_type from "../assets/todo_next_type.png"
 import ai_mock_interview from '../assets/ai_mock_interview.png'
+import tcs2 from "../assets/company/tcs2.png"
+import tcs from "../assets/company/tcs.webp"
+
 
 
 
@@ -149,44 +152,43 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "MERN Stack Intern",
-    company_name: "DCT academy",
-    icon: dct,
-    iconBg: "#383E56",
-    date: "July 2023 - Feb 2024",
-    points: [
-      "Developed multiple full-stack projects showcasing practical skills in JavaScript (ES6) and creating responsive UIs with React.js",
-      "Built scalable server-side applications using Node.js and Express.js",
-      "Managed NoSQL databases with MongoDB, including data modeling and querying",
-      " Implemented RESTful APIs and used Git for version control"
-    ],
-  },
-  {
-    title: "Part time Frontend developer",
-    company_name: "devNbrand",
-    icon: devnbrand,
-    iconBg: "#E6DEDD",
-    date: "Nov 2024",
-    points: [
-      "Developing and maintaining web applications using React.js,Next.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
   // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
+  //   title: "MERN Stack Intern",
+  //   company_name: "DCT academy",
+  //   icon: dct,
   //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
+  //   date: "July 2023 - Feb 2024",
   //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Developed multiple full-stack projects showcasing practical skills in JavaScript (ES6) and creating responsive UIs with React.js",
+  //     "Built scalable server-side applications using Node.js and Express.js",
+  //     "Managed NoSQL databases with MongoDB, including data modeling and querying",
+  //     " Implemented RESTful APIs and used Git for version control"
+  //   ],
+  // },
+  // {
+  //   title: "Part time Frontend developer",
+  //   company_name: "devNbrand",
+  //   icon: devnbrand,
+  //   iconBg: "#E6DEDD",
+  //   date: "Nov 2024",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js,Next.js and other related technologies.",
   //     "Implementing responsive design and ensuring cross-browser compatibility.",
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
+  {
+    title: "MERN Stack Developer",
+    company_name: "Tata Consultancy Services",
+    icon: tcs2,
+    iconBg: "#ffffff",
+    date: "July 2023 - Present",
+    points: [
+      "Software Engineer with 2.8 years of experience developing scalable web applications using the MERN stack.",
+      "At Tata Consultancy Services, I design and build responsive user interfaces with React.js, Next.js, and Tailwind CSS while integrating RESTful APIs developed using Node.js and Express.js.",
+      "I collaborate with cross-functional teams to implement features, optimize performance, resolve production issues, and deliver reliable, user-focused solutions in Agile environments.",
+    ],
+  }
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
@@ -230,6 +232,53 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "MyAster",
+    description: "MyAster is a healthcare appointment and records management web application designed to simplify patient interactions with healthcare providers.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    live: "",
+    image: "None",
+    source_code_link: "",
+  },  {
+    name: "Marks & Spencer ",
+    description: "Marks & Spencer is a leading retail e-commerce platform that allows customers to shop online for a wide range of products, including clothing, footwear, and accessories for men and women.",
+    tags: [
+//       HTML5, CSS3, Tailwind CSS, React JS, Redux Toolkit, 
+// JavaScript, Next JS 
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+            {
+        name: "redux-Toolkit",
+        color: "orange-text-gradient",
+      },
+    ],
+    live: "",
+    image:"",
+    source_code_link: "",
+  },
   {
     name: "AI-Mock-Interview",
     description: "AI mock-interview web application so the user can give interview and get feedback",
