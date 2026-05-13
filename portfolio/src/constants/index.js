@@ -293,7 +293,7 @@ const projects = [
       },
       {
         name: "neon",
-        color: "pink-text-gradient",
+        color: "pink-text-gradient ",
       },
       {
         name: "gemini-ai",
