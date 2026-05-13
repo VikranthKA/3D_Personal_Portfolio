@@ -56,15 +56,16 @@ const ProjectCard = ({
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         <p className='mt-2 text-secondary text-[14px]'>{description.slice(0,120)}</p>
       </div>
-      {live && (
-        <a
-          href={live}
-          target="_blank"
-          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'
-        >
-          Live
-        </a>
-      )}
+{live && (
+  <a
+    href={live}
+    target="_blank"
+    rel="noreferrer"
+    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'
+  >
+    Live
+  </a>
+)}
     </div>
 
     <div className='mt-4 flex flex-wrap gap-2'>
