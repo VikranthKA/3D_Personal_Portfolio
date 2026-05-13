@@ -3,12 +3,10 @@ import About from "./components/About"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Experience from "./components/Experience"
-import Feedbacks from "./components/Feedbacks"
 import Tech from "./components/Tech"
 import Works from "./components/Works"
 import Contact from "./components/Contact"
 import "./index.css";
-import EarthCanvas from './components/canvas/Earth';
 
 const App = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, useState, useRef } from "react";
-import { Canvas, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
@@ -54,20 +54,24 @@ const ComputersCanvas = () => {
     };
   }, []);
 
-  useEffect(() => {
-    return () => {
-      if (canvasRef.current) {
-        const gl = canvasRef.current.gl;
-        if (gl) {
-          const context = gl.getContext();
-          if (context) {
-            context.dispose();
-            context.forceContextLoss();
-          }
+useEffect(() => {
+  const canvas = canvasRef.current;
+
+  return () => {
+    if (canvas) {
+      const gl = canvas.gl;
+
+      if (gl) {
+        const context = gl.getContext();
+
+        if (context) {
+          context.dispose();
+          context.forceContextLoss();
         }
       }
-    };
-  }, []);
+    }
+  };
+}, []);
 
   return (
     <Canvas

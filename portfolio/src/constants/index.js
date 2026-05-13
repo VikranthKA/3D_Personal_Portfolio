@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  
   html,
   css,
   reactjs,
@@ -14,14 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+ 
 
 } from "../assets";
 
@@ -35,14 +28,14 @@ import Postman from "../assets/Postman.jpeg"
 import RESTAPI from "../assets/RestAPI.jpeg"
 import VScode from "../assets/VScode.jpeg"
 
-import dct from "../assets/dct.png"
+// import dct from "../assets/dct.png"
 import eventspot from "../assets/eventspot.jpg"
 import blogapp from "../assets/blogapp.jpg"
-import devnbrand from "../assets/devnbrand.jpeg"
+// import devnbrand from "../assets/devnbrand.jpeg"
 import todo_next_type from "../assets/todo_next_type.png"
 import ai_mock_interview from '../assets/ai_mock_interview.png'
 import tcs2 from "../assets/company/tcs2.png"
-import tcs from "../assets/company/tcs.webp"
+// import tcs from "../assets/company/tcs.webp"
 
 
 
