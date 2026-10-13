@@ -175,7 +175,7 @@ const experiences = [
     company_name: "Tata Consultancy Services",
     icon: tcs2,
     iconBg: "#ffffff",
-    date: "July 2023 - Present",
+    date: "July 2023 - July 2026",
     points: [
       "Software Engineer with 2.8 years of experience developing scalable web applications using the MERN stack.",
       "At Tata Consultancy Services, I design and build responsive user interfaces with React.js, Next.js, and Tailwind CSS while integrating RESTful APIs developed using Node.js and Express.js.",

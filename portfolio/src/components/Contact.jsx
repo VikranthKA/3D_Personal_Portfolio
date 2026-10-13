@@ -13,7 +13,7 @@ const Contact = () => {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
 
   const handleEmailClick = () => {
-    setShowEmail(!showEmail);
+    setShowEmail(!showEmail); 
   };
 
   const handlePhoneClick = () => {
