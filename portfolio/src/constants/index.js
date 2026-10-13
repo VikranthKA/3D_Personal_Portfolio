@@ -172,7 +172,7 @@ const experiences = [
   // },
   {
     title: "MERN Stack Developer",
-    company_name: " Nayagara Technologies, (Client -TCS), Bangalore",
+    company_name: " Nayagara Technologies, Client -TCS, Bangalore",
     icon: tcs2,
     iconBg: "#ffffff",
     date: "July 2023 - July 2026",
